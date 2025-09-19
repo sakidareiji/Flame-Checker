@@ -1,0 +1,11 @@
+INFO:     Will watch for changes in these directories: ['/home/reiji/hack_u_backend']
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [9925] using watchgod
+INFO:     Started server process [9928]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1758114754.130475    9975 alts_credentials.cc:93] ALTS creds ignored. Not running on GCP and untrusted ALTS is not enabled.
+INFO:     127.0.0.1:33480 - "POST /check/post HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50350 - "POST /check/post HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60270 - "POST /check/post HTTP/1.1" 200 OK
